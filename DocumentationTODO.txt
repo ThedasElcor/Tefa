@@ -1,0 +1,9 @@
+* document difference between variant system and instantiation (done for characters)
+* explain how the variant system works
+* explain how change requests are going to work
+* explain database-level localization and resx handles localization
+* explain media versus subfandom
+* document the ao3 tag parsing system
+* maybe basic layered architecture documentation for fandom folks who may be newer to this type of coding
+* document general goals, esp. the reasons why the entities are so complex/ the "engine" idea
+* explain that genre/tropes/etc are for future expansion, we're focusing more on concrete fandom entities first
