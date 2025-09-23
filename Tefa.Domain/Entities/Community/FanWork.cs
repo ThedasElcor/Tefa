@@ -1,10 +1,9 @@
 ﻿using Tefa.Domain.Entities.Ao3Connections;
-using Tefa.Domain.Entities.Characters;
-using Tefa.Domain.Entities.ConLangs;
 using Tefa.Domain.Entities.Events;
-using Tefa.Domain.Entities.FandomCore;
-using Tefa.Domain.Entities.Locations;
-using Tefa.Domain.Entities.Relationships;
+using Tefa.Domain.Entities.FandomCore.Characters;
+using Tefa.Domain.Entities.FandomCore.ConLangs;
+using Tefa.Domain.Entities.FandomCore.Locations;
+using Tefa.Domain.Entities.FandomCore.Relationships;
 using Tefa.Domain.Entities.Users;
 using Tefa.Domain.Enums;
 

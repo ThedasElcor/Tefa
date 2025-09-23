@@ -11,8 +11,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\Genres\" />
-    <Folder Include="Entities\Tropes\" />
+    <Folder Include="Entities\FandomCore\EventParticipants\EventParticipantChangeRequests\" />
+    <Folder Include="Entities\FandomCore\Events\EventChangeRequests\" />
+    <Folder Include="Entities\FandomCore\GroupParticipants\GroupParticipantChangeRequests\" />
+    <Folder Include="Entities\FandomCore\Groups\GroupChangeRequests\" />
+    <Folder Include="Entities\FandomCore\LocationsAssociated\LocationAssociatedChangeRequests\" />
+    <Folder Include="Entities\FandomCore\Locations\LocationChangeRequests\" />
+    <Folder Include="Entities\FandomCore\Relationships\RelationshipChangeRequests\" />
+    <Folder Include="Entities\FandomCore\Species\SpeciesChangeRequests\" />
+    <Folder Include="Entities\MetadataCore\FandomMedia\FandomMediaChangeRequests\" />
+    <Folder Include="Entities\MetadataCore\Fandoms\FandomChangeRequests\" />
+    <Folder Include="Entities\MetadataCore\Genres\GenreChangeRequests\" />
+    <Folder Include="Entities\MetadataCore\MediaAppearances\MediaAppearanceChangeRequests\" />
+    <Folder Include="Entities\MetadataCore\Media\MediaChangeRequests\" />
+    <Folder Include="Entities\MetadataCore\Tropes\TropeChangeRequests\" />
   </ItemGroup>
 
 </Project>

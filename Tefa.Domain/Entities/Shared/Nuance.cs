@@ -1,6 +1,4 @@
-﻿
-
-namespace Tefa.Domain.Entities.Shared
+﻿namespace Tefa.Domain.Entities.Shared
 {
     public class Nuance
     {
