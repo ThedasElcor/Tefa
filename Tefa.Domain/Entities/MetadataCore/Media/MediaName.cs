@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Tefa.Domain.Entities.Shared;
 
 namespace Tefa.Domain.Entities.MetadataCore.Media
 {
-    internal class MediaName
+    public class MediaName : LocalizedName
     {
+        public required int MediaId { get; set; }
+        public required MediaItem Media {  get; set; }
     }
 }

@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Tefa.Domain.Entities.Shared;
 
 namespace Tefa.Domain.Entities.FandomCore.Locations
 {
-    internal class LocationName
+    public class LocationName : LocalizedName
     {
+        public required int LocationId { get; set; }
+        public required Location Location { get; set; }
     }
 }
