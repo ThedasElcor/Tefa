@@ -1,6 +1,6 @@
 ﻿using Tefa.Domain.Entities.Users;
 
-namespace Tefa.Domain.Entities.Shared
+namespace Tefa.Domain.Entities.ChangeRequests
 {
     public class ReviewEntry
     {

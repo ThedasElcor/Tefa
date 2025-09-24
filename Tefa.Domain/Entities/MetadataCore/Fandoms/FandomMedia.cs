@@ -1,9 +1,8 @@
-﻿using Tefa.Domain.Entities.MetadataCore.Fandoms;
-using Tefa.Domain.Entities.MetadataCore.Media;
+﻿using Tefa.Domain.Entities.MetadataCore.Media;
 using Tefa.Domain.Entities.Shared;
 using Tefa.Domain.Enums;
 
-namespace Tefa.Domain.Entities.MetadataCore.FandomMedia
+namespace Tefa.Domain.Entities.MetadataCore.Fandoms
 {
     public class FandomMedia
     {

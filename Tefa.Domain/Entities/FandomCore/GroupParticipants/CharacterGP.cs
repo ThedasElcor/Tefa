@@ -5,7 +5,7 @@ using Tefa.Domain.Enums;
 
 namespace Tefa.Domain.Entities.FandomCore.GroupParticipants
 {
-    public class CharacterGroup
+    public class CharacterGP
     {
         public required int Id { get; set; }
         public required int CharacterId { get; set; }

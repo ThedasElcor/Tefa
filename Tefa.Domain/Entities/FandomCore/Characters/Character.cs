@@ -42,7 +42,7 @@ namespace Tefa.Domain.Entities.FandomCore.Characters
         public ICollection<DisabilitySysTag> DisabilitySysTags { get; set; } = []; // Parsing Tags
         public ICollection<CharacterConlang> KnownLanguages { get; set; } = [];
         public ICollection<CharacterSpecies> Species { get; set; } = [];
-        public ICollection<CharacterGroup> Affiliations { get; set; } = [];
+        public ICollection<CharacterGP> Affiliations { get; set; } = [];
         public ICollection<CharacterLA> AssociatedLocations { get; set; } = [];     
 
         //Variant System (DAG)

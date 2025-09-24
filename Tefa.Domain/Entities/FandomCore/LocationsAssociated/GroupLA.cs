@@ -3,7 +3,7 @@ using Tefa.Domain.Entities.FandomCore.Locations;
 using Tefa.Domain.Entities.Shared;
 using Tefa.Domain.Enums;
 
-namespace Tefa.Domain.Entities.FandomCore.LocationAssociations
+namespace Tefa.Domain.Entities.FandomCore.LocationsAssociated
 {
     public class GroupLA
     {
