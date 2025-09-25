@@ -1,4 +1,4 @@
-﻿namespace Tefa.Domain.Entities.Events
+﻿namespace Tefa.Domain.Entities.Community.CommunityEvents
 {
     public class CommunityEventSignUp
     {

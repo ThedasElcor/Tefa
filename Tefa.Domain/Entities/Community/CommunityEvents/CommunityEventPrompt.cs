@@ -1,12 +1,13 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
+using Tefa.Domain.Entities.Community;
 using Tefa.Domain.Entities.FandomCore.Characters;
 using Tefa.Domain.Entities.FandomCore.Locations;
 using Tefa.Domain.Entities.FandomCore.Relationships;
 using Tefa.Domain.Entities.Users;
 using Tefa.Domain.Enums;
 
-namespace Tefa.Domain.Entities.Events
+namespace Tefa.Domain.Entities.Community.CommunityEvents
 {
     public class CommunityEventPrompt
     {

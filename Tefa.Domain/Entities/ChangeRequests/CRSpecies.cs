@@ -1,6 +1,5 @@
 ﻿using Tefa.Domain.Entities.FandomCore.Species;
 
-
 namespace Tefa.Domain.Entities.ChangeRequests
 {
     public class CRSpecies : ChangeRequest

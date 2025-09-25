@@ -5,7 +5,7 @@ using Tefa.Domain.Entities.FandomCore.Locations;
 using Tefa.Domain.Entities.FandomCore.Relationships;
 using Tefa.Domain.Enums;
 
-namespace Tefa.Domain.Entities.Events
+namespace Tefa.Domain.Entities.Community.CommunityEvents
 {
     public class CommunityEventRequest
     {

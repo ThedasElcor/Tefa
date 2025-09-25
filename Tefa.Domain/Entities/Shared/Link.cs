@@ -1,6 +1,6 @@
 ﻿namespace Tefa.Domain.Entities.Shared
 {
-    public class Link
+    abstract public class Link
     {
             public required int Id { get; set; }
             public string? Name { get; set; }

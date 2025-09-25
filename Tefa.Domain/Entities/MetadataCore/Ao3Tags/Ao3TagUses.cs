@@ -1,5 +1,4 @@
 ﻿using Tefa.Domain.Entities.Community;
-using Tefa.Domain.Entities.Events;
 
 namespace Tefa.Domain.Entities.MetadataCore.Ao3Tags
 {

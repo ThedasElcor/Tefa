@@ -1,5 +1,6 @@
 ﻿using Tefa.Domain.Entities.Ao3Connections;
-using Tefa.Domain.Entities.Events;
+using Tefa.Domain.Entities.Community.Collections;
+using Tefa.Domain.Entities.Community.CommunityEvents;
 using Tefa.Domain.Entities.FandomCore.Characters;
 using Tefa.Domain.Entities.FandomCore.ConLangs;
 using Tefa.Domain.Entities.FandomCore.Locations;
