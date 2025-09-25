@@ -13,6 +13,6 @@ namespace Tefa.Domain.Entities.FandomCore.GroupParticipants
         public required int GroupId { get; set; }
         public required Group Group { get; set; }
         public ICollection<AffiliationType> AffiliationTypes { get; set; } = [];
-        public ICollection<Nuance> NuanceNotes { get; set; } = [];
+        public ICollection<LocalizedNote> NuanceNotes { get; set; } = [];
     }
 }

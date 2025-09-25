@@ -4,6 +4,7 @@ using Tefa.Domain.Entities.FandomCore.LocationsAssociated;
 using Tefa.Domain.Entities.MetadataCore.Ao3Tags;
 using Tefa.Domain.Entities.MetadataCore.Fandoms;
 using Tefa.Domain.Entities.MetadataCore.MediaAppearances;
+using Tefa.Domain.Entities.Shared;
 using Tefa.Domain.Enums;
 
 namespace Tefa.Domain.Entities.FandomCore.Events

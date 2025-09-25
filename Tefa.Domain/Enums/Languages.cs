@@ -3,14 +3,14 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Tefa.Domain.Enums
 {
-   public enum LanguageSlug
+   public enum Languages
     {
         // ISO 639-1 
         [Display(Name = "Undefined")]
         Undefined = 0,
 
         [Display(Name = "Afrikaans")]
-        af,
+        af ,
 
         [Display(Name = "አማርኛ")]
         am,

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Tefa.Domain.Entities.Shared;
 
 namespace Tefa.Domain.Entities.FandomCore.Groups
 {
-    public class GroupDescription
+    public class GroupDescription : LocalizedNote
     {
     }
 }

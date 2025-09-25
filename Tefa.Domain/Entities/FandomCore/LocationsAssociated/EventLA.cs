@@ -11,6 +11,6 @@ namespace Tefa.Domain.Entities.FandomCore.LocationsAssociated
         public required Event Event { get; set; }
         public required int LocationId { get; set; }
         public required Location Location { get; set; }
-        public ICollection<Nuance> NuanceNotes { get; set; } = [];
+        public ICollection<LocalizedNote> NuanceNotes { get; set; } = [];
     }
 }

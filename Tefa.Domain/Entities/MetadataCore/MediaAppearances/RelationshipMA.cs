@@ -13,6 +13,6 @@ namespace Tefa.Domain.Entities.MetadataCore.MediaAppearances
         public required int RelationshipId { get; set; }
         public required Relationship Relationship { get; set; }
         public required EntityAppearanceType AppearanceType { get; set; }
-        public ICollection<Nuance> NuanceNotes { get; set; } = [];
+        public ICollection<LocalizedNote> NuanceNotes { get; set; } = [];
     }
 }

@@ -13,6 +13,6 @@ namespace Tefa.Domain.Entities.MetadataCore.MediaAppearances
         public required int MediaId { get; set; }
         public required MediaItem Media { get; set; }
         public required EntityAppearanceType AppearanceType { get; set; }
-        public ICollection<Nuance> NuanceNotes { get; set; } = [];
+        public ICollection<LocalizedNote> NuanceNotes { get; set; } = [];
     }
 }

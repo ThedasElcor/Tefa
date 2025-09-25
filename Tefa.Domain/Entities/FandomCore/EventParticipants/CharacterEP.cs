@@ -11,6 +11,6 @@ namespace Tefa.Domain.Entities.FandomCore.EventParticipants
         public required Character Character { get; set; }
         public required int EventId { get; set; }
         public required Event Event { get; set; }
-        public ICollection<Nuance> NuanceNotes { get; set; } = [];
+        public ICollection<LocalizedNote> NuanceNotes { get; set; } = [];
     }
 }

@@ -11,6 +11,6 @@ namespace Tefa.Domain.Entities.MetadataCore.Fandoms
         public required Fandom Fandom {  get; set; }
         public required int MediaId { get; set; }
         public required MediaItem Media {  get; set; }
-        public ICollection<Nuance> NuanceNotes { get; set; } = [];
+        public ICollection<LocalizedNote> NuanceNotes { get; set; } = [];
     }
 }

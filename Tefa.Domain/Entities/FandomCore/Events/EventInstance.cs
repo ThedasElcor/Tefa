@@ -1,35 +1,23 @@
-﻿using Tefa.Domain.Entities.Community;
-using Tefa.Domain.Entities.FandomCore.Characters;
-using Tefa.Domain.Entities.FandomCore.Groups;
-using Tefa.Domain.Entities.FandomCore.Locations;
-using Tefa.Domain.Entities.FandomCore.Species;
-using Tefa.Domain.Entities.MetadataCore.Fandoms;
+﻿using Tefa.Domain.Entities.FandomCore.EventParticipants;
+using Tefa.Domain.Entities.FandomCore.GroupParticipants;
+using Tefa.Domain.Entities.FandomCore.LocationsAssociated;
+using Tefa.Domain.Entities.Shared;
 using Tefa.Domain.Enums;
 
 namespace Tefa.Domain.Entities.FandomCore.Events
-{  /// <summary>
-   /// Represents a mutable, contextualized version of an Eventr, created per use (e.g., in a fanwork or request).
-   /// </summary>
-    public class EventInstance
+{ 
+    public class EventInstance : Instance
     {
-        //Metadata
-        public required int Id { get; set; }
-        public ICollection<LanguageSlug> Languages { get; set; } = []; //What languages in this instance written in
-        public FanWork? FanWork { get; set; } // Null for offers/requests, required for searchable entries
-
-        //Instance of
+        // Instance of
         public required int EventId { get; set; }
         public required Event Event { get; set; }
-        public ICollection<Fandom> InstanceFandoms { get; set; } = []; //Defaults and crossover additions
 
-        public string? InstanceName { get; set; }
-        public ICollection<EventDescription> EventDescriptions { get; set; } = [];
-        public ICollection<LocationInstance> AssociatedLocationInstances { get; set; } = [];
-        public ICollection<CharacterInstance> AssociatedCharacterInstances { get; set; } = [];
-        public ICollection<GroupInstance> AssociatedGroupInstances {  get; set; } = [];
-        public ICollection<SpeciesItem> Species { get; set; } = [];
-        public ICollection<SpeciesSysTag> InstanceSpeciesSysTags { get; set; } = [];
-        
-        public string FreeformNotes { get; set; } = string.Empty;
+        // Instance Information
+        public ICollection<EventLAInstance> AssociatedLocations { get; set; } = [];
+        public ICollection<CharacterEPInstance> AssociatedCharacters { get; set; } = [];
+        public ICollection<GroupEPInstance> AssociatedGroups {  get; set; } = [];
+        public ICollection<SpeciesGPInstance> AssociatedSpecies { get; set; } = [];
+        public ICollection<SpeciesSysTag> SpeciesSysTags { get; set; } = [];
+
     }
 }
