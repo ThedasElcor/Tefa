@@ -1,6 +1,5 @@
 ﻿using Tefa.Domain.Entities.FandomCore.Species;
 using Tefa.Domain.Entities.MetadataCore.Media;
-using Tefa.Domain.Entities.Shared;
 using Tefa.Domain.Enums;
 
 namespace Tefa.Domain.Entities.MetadataCore.MediaAppearances
@@ -13,7 +12,7 @@ namespace Tefa.Domain.Entities.MetadataCore.MediaAppearances
         public required int SpeciedId { get; set; }
         public required SpeciesItem Species {  get; set; }
         public required EntityAppearanceType EntityAppearanceType { get; set; }
-        public ICollection<LocalizedNote> NuanceNotes { get; set; } = [];
+        public ICollection<SpeciesMANote> NuanceNotes { get; set; } = [];
 
     }
 }

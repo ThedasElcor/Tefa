@@ -1,4 +1,5 @@
 ﻿using Tefa.Domain.Entities.FandomCore.Characters;
+using Tefa.Domain.Entities.FandomCore.Conlangs;
 using Tefa.Domain.Entities.FandomCore.ConLangs;
 using Tefa.Domain.Entities.FandomCore.Events;
 using Tefa.Domain.Entities.FandomCore.Groups;
@@ -22,7 +23,7 @@ namespace Tefa.Domain.Entities.MetadataCore.Fandoms
         // Navigation properties
         public ICollection<Ao3Tag> Ao3Tags { get; set; } = [];
         public ICollection<Character> Characters { get; set; } = [];
-        public ICollection<ConLang> ConLangs { get; set; } = [];
+        public ICollection<Conlang> Conlangs { get; set; } = [];
         public ICollection<Event> Events { get; set; } = [];
         public ICollection<Group> Groups { get; set; } = [];
         public ICollection<Location> Locations { get; set; } = [];

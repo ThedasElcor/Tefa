@@ -1,9 +1,10 @@
 ﻿using Tefa.Domain.Entities.FandomCore.Events;
 using Tefa.Domain.Entities.FandomCore.Locations;
+using Tefa.Domain.Entities.Shared;
 
 namespace Tefa.Domain.Entities.FandomCore.LocationsAssociated
 {
-    public class EventLAInstance
+    public class EventLAInstance : Instance
     {
         public required int EventId { get; set; }
         public required Event Event { get; set; }

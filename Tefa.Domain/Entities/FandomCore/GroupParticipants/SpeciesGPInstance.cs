@@ -7,10 +7,10 @@ namespace Tefa.Domain.Entities.FandomCore.GroupParticipants
 {
     public class SpeciesGPInstance : Instance
     {
-        public required int SpeciedId { get; set; }
+        public required int SpeciesInstanceId { get; set; }
         public required SpeciesInstance Species {  get; set; }
-        public required int GroupId { get; set; }
-        public required Group Group { get; set; }
+        public required int GroupInstanceId { get; set; }
+        public required GroupInstance Group { get; set; }
         public ICollection<AffiliationType> AffiliationTypes { get; set; } = [];
     }
 }

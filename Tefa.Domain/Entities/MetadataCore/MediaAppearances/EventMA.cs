@@ -1,6 +1,5 @@
 ﻿using Tefa.Domain.Entities.FandomCore.Events;
 using Tefa.Domain.Entities.MetadataCore.Media;
-using Tefa.Domain.Entities.Shared;
 using Tefa.Domain.Enums;
 
 namespace Tefa.Domain.Entities.MetadataCore.MediaAppearances
@@ -13,6 +12,6 @@ namespace Tefa.Domain.Entities.MetadataCore.MediaAppearances
         public required int MediaId { get; set; }
         public required MediaItem Media {  get; set; }
         public required EntityAppearanceType AppearanceType { get; set; }
-        public ICollection<LocalizedNote> NuanceNotes { get; set; } = [];
+        public ICollection<EventMANote> Notes { get; set; } = [];
     }
 }

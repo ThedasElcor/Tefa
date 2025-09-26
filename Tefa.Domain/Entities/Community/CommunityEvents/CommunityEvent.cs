@@ -12,7 +12,7 @@ namespace Tefa.Domain.Entities.Community.CommunityEvents
         public FandomEventType EventType { get; set; }
         public ICollection<CommunityEventName> Names { get; set; } = [];
         public ICollection<CommunityEventDescription> CommunityEventDescriptions { get; set; } = [];
-        public ICollection<EventLink> EventLinks { get; set; } = [];
+        public ICollection<CommunityEventLink> EventLinks { get; set; } = [];
 
         // Navigation properties
         public ICollection<Ao3Tag> Ao3Tags { get; set; } = [];

@@ -12,6 +12,6 @@ namespace Tefa.Domain.Entities.FandomCore.LocationsAssociated
         public required Location Location { get; set; }
         public required SpeciesItem Species {  get; set; }
         public ICollection<AffiliationType> AffiliationTypes { get; set; } = [];
-        public ICollection<LocalizedNote> NuanceNotes { get; set; } = [];
+        public ICollection<SpeciesLANote> Notes { get; set; } = [];
     }
 }

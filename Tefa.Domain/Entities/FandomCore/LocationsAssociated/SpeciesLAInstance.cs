@@ -1,6 +1,7 @@
 ﻿using Tefa.Domain.Entities.FandomCore.Locations;
 using Tefa.Domain.Entities.FandomCore.Species;
 using Tefa.Domain.Entities.Shared;
+using Tefa.Domain.Enums;
 
 namespace Tefa.Domain.Entities.FandomCore.LocationsAssociated
 {
@@ -10,5 +11,6 @@ namespace Tefa.Domain.Entities.FandomCore.LocationsAssociated
         public required SpeciesInstance Species { get; set; }
         public required int AssociatedLocationId { get; set; }
         public required LocationInstance AssociatedLocation {get; set;}
+        public ICollection<AffiliationType> AffiliationTypes { get; set; } = [];
     }
 }
