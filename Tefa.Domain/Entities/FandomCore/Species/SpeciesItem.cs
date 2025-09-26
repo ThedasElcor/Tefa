@@ -1,5 +1,9 @@
-﻿using Tefa.Domain.Entities.Ao3Connections;
-using Tefa.Domain.Entities.FandomCore.Characters;
+﻿using Tefa.Domain.Entities.FandomCore.Characters;
+using Tefa.Domain.Entities.FandomCore.Conlangs;
+using Tefa.Domain.Entities.FandomCore.Events;
+using Tefa.Domain.Entities.FandomCore.Groups;
+using Tefa.Domain.Entities.MetadataCore.Ao3Tags;
+using Tefa.Domain.Entities.MetadataCore.Fandoms;
 using Tefa.Domain.Enums;
 
 namespace Tefa.Domain.Entities.FandomCore.Species
@@ -16,7 +20,9 @@ namespace Tefa.Domain.Entities.FandomCore.Species
 
         // Navigation Properties
         public ICollection<Ao3Tag> Ao3Tags { get; set; } = [];
-        public ICollection<Character> Characters { get; set; } = [];
+        public ICollection<CharacterSpecies> Characters { get; set; } = [];
+        public ICollection<Conlang> AssociatedConlangs { get; set; } = [];
+        public ICollection<Event> AssoiciatedEvents { get; set; } = [];
         public ICollection<Fandom> Fandoms { get; set; } = [];
 
         //For species with multiple variants like elves or dwarves

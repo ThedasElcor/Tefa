@@ -2,7 +2,7 @@
 
 namespace Tefa.Domain.Entities.FandomCore.Groups
 {
-    public class GroupInstance : Instance
+    public class GroupNote : LocalizedNote
     {
         public required int GroupId { get; set; }
         public required Group Group { get; set; }

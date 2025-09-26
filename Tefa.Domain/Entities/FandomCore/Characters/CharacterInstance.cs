@@ -1,4 +1,5 @@
-﻿using Tefa.Domain.Entities.FandomCore.Conlangs;
+﻿using Tefa.Domain.Entities.FandomCore.ConlangAssociations;
+using Tefa.Domain.Entities.FandomCore.Conlangs;
 using Tefa.Domain.Entities.FandomCore.GroupParticipants;
 using Tefa.Domain.Entities.FandomCore.Groups;
 using Tefa.Domain.Entities.FandomCore.Locations;
@@ -23,7 +24,7 @@ namespace Tefa.Domain.Entities.FandomCore.Characters
         public ICollection<OrientationSysTag> OrientationSysTags { get; set; } = []; // Parsing Tags
         public string? InstanceDisabilityName { get; set; }
         public ICollection<DisabilitySysTag> DisabilitySysTags { get; set; } = []; // Parsing Tags
-        public ICollection<CharacterConlangInstance> KnownLanguages { get; set; } = [];
+        public ICollection<CharacterCAInstance> KnownLanguages { get; set; } = [];
         public ICollection<SpeciesInstance> Species { get; set; } = [];
         public ICollection<CharacterGPInstance> AssociatedGroups { get; set; } = [];
         public ICollection<CharacterLAInstance> AssociatedLocations { get; set; } = [];

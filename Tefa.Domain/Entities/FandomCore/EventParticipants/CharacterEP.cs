@@ -1,6 +1,5 @@
 ﻿using Tefa.Domain.Entities.FandomCore.Characters;
 using Tefa.Domain.Entities.FandomCore.Events;
-using Tefa.Domain.Entities.Shared;
 
 namespace Tefa.Domain.Entities.FandomCore.EventParticipants
 {
@@ -11,6 +10,6 @@ namespace Tefa.Domain.Entities.FandomCore.EventParticipants
         public required Character Character { get; set; }
         public required int EventId { get; set; }
         public required Event Event { get; set; }
-        public ICollection<LocalizedNote> NuanceNotes { get; set; } = [];
+        public ICollection<CharacterEPNote> Notes { get; set; } = [];
     }
 }

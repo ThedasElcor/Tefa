@@ -1,10 +1,11 @@
-﻿using Tefa.Domain.Entities.FandomCore.Conlangs;
+﻿using Tefa.Domain.Entities.FandomCore.Characters;
+using Tefa.Domain.Entities.FandomCore.Conlangs;
 using Tefa.Domain.Entities.Shared;
 using Tefa.Domain.Enums;
 
-namespace Tefa.Domain.Entities.FandomCore.Characters
+namespace Tefa.Domain.Entities.FandomCore.ConlangAssociations
 {
-    public class CharacterConlangInstance : Instance
+    public class CharacterCAInstance : Instance
     { 
         public required int CharacterId { get; set; }
         public required CharacterInstance Character { get; set; }

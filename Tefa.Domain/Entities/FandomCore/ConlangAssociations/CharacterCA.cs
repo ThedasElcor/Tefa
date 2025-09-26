@@ -1,16 +1,16 @@
-﻿using Tefa.Domain.Entities.Shared;
+﻿using Tefa.Domain.Entities.FandomCore.Characters;
 using Tefa.Domain.Enums;
 
-namespace Tefa.Domain.Entities.FandomCore.Characters
+namespace Tefa.Domain.Entities.FandomCore.ConlangAssociations
 {
-    public class CharacterConlang
+    public class CharacterCA
     {
         public required int Id { get; set; }
         public required int CharacterId { get; set; }
         public required Character Character { get; set; }
         public required int ConlangId { get; set; }
-        public required CharacterConlang Conlang { get; set; }
+        public required CharacterCA Conlang { get; set; }
         public required LanguageFluency Fluency { get; set; }
-        public ICollection<LocalizedNote> Notes { get; set; } = [];
+        public ICollection<CharacterCANote> Notes { get; set; } = [];
     }
 }

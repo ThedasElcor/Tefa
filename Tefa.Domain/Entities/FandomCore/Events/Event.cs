@@ -4,20 +4,10 @@ using Tefa.Domain.Entities.FandomCore.LocationsAssociated;
 using Tefa.Domain.Entities.MetadataCore.Ao3Tags;
 using Tefa.Domain.Entities.MetadataCore.Fandoms;
 using Tefa.Domain.Entities.MetadataCore.MediaAppearances;
-using Tefa.Domain.Entities.Shared;
 using Tefa.Domain.Enums;
 
 namespace Tefa.Domain.Entities.FandomCore.Events
 {
-    /// <summary>
-    /// Represents an event, or a possible event variant in the system.
-    /// </summary>
-    /// <remarks>
-    /// This is for fictional events (or historical events if the fandom is historical ficiton),
-    /// NOT for "community events" being run on the website.
-    /// For a more in depth explanation of hte distinction between varaint and instance, 
-    /// please see the Character Entity.
-    /// </remarks>
     public class Event
     {
         public required int Id { get; set; }
