@@ -1,5 +1,5 @@
 ﻿using Tefa.Domain.Entities.FandomCore.Characters;
-using Tefa.Domain.Enums;
+using Tefa.Domain.Enums.Language;
 
 namespace Tefa.Domain.Entities.FandomCore.ConlangAssociations
 {

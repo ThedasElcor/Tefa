@@ -1,4 +1,4 @@
-﻿namespace Tefa.Domain.Enums
+﻿namespace Tefa.Domain.Enums.Admin
 {
     public enum ChangeTypeEnum
     {

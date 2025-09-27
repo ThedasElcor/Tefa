@@ -1,4 +1,4 @@
-﻿using Tefa.Domain.Enums;
+﻿using Tefa.Domain.Enums.Admin;
 
 namespace Tefa.Domain.Entities.MetadataCore.Ao3Tags
 {

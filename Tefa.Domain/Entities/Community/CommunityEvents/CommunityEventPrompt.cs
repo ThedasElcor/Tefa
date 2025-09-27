@@ -5,7 +5,7 @@ using Tefa.Domain.Entities.FandomCore.Characters;
 using Tefa.Domain.Entities.FandomCore.Locations;
 using Tefa.Domain.Entities.FandomCore.Relationships;
 using Tefa.Domain.Entities.Users;
-using Tefa.Domain.Enums;
+using Tefa.Domain.Enums.Admin;
 
 namespace Tefa.Domain.Entities.Community.CommunityEvents
 {

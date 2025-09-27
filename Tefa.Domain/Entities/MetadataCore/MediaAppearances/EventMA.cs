@@ -1,6 +1,6 @@
 ﻿using Tefa.Domain.Entities.FandomCore.Events;
 using Tefa.Domain.Entities.MetadataCore.Media;
-using Tefa.Domain.Enums;
+using Tefa.Domain.Enums.Media;
 
 namespace Tefa.Domain.Entities.MetadataCore.MediaAppearances
 {

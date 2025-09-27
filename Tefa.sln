@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentat
 		DocumentationTODO.txt = DocumentationTODO.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tefa.Resources", "Resources\Tefa.Resources.csproj", "{15AE8E69-8A8F-410A-A6C0-D3DF226AFBED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{300F453D-2360-4076-A45D-F4322A03B63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{300F453D-2360-4076-A45D-F4322A03B63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{300F453D-2360-4076-A45D-F4322A03B63C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15AE8E69-8A8F-410A-A6C0-D3DF226AFBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15AE8E69-8A8F-410A-A6C0-D3DF226AFBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15AE8E69-8A8F-410A-A6C0-D3DF226AFBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15AE8E69-8A8F-410A-A6C0-D3DF226AFBED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

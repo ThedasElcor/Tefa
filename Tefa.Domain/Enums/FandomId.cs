@@ -25,6 +25,8 @@ namespace Tefa.Domain.Enums
         TheOuterWorlds = 12,
         Overwatch = 3,
         Pokemon = 13,
+        Stargate = 15,
+        StarTrek = 14,
         StarWars = 11,
         TheWitcher = 7,
     }

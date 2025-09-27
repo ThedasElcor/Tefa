@@ -1,5 +1,4 @@
-﻿
-namespace Tefa.Domain.Enums
+﻿namespace Tefa.Domain.Enums.Community
 {
     public enum FandomEventType
     {

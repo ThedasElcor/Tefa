@@ -6,7 +6,7 @@ using Tefa.Domain.Entities.FandomCore.Groups;
 using Tefa.Domain.Entities.FandomCore.Locations;
 using Tefa.Domain.Entities.FandomCore.Relationships;
 using Tefa.Domain.Entities.FandomCore.Species;
-using Tefa.Domain.Enums;
+using Tefa.Domain.Enums.Community;
 
 namespace Tefa.Domain.Entities.Community.CommunityEvents
 {

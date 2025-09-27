@@ -1,6 +1,6 @@
 ﻿using Tefa.Domain.Entities.MetadataCore.Ao3Tags;
 using Tefa.Domain.Entities.MetadataCore.Fandoms;
-using Tefa.Domain.Enums;
+using Tefa.Domain.Enums.Community;
 
 namespace Tefa.Domain.Entities.Community.CommunityEvents
 {

@@ -1,7 +1,7 @@
 ﻿using Tefa.Domain.Entities.FandomCore.Characters;
 using Tefa.Domain.Entities.FandomCore.Conlangs;
 using Tefa.Domain.Entities.Shared;
-using Tefa.Domain.Enums;
+using Tefa.Domain.Enums.Language;
 
 namespace Tefa.Domain.Entities.FandomCore.ConlangAssociations
 {
