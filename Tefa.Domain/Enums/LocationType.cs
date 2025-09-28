@@ -1,5 +1,4 @@
-﻿
-namespace Tefa.Domain.Enums
+﻿namespace Tefa.Domain.Enums
 {
     #region Watermark
     /*  Thedas Elcor's Fandom App (TEFA)

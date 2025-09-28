@@ -11,8 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Entities\MetadataCore\Genres\" />
-    <Folder Include="Entities\MetadataCore\Tropes\" />
+    <None Include="Entities\Junctions\GroupLocation.cs" />
   </ItemGroup>
 
 </Project>
