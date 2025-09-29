@@ -1,4 +1,5 @@
-﻿using Tefa.Domain.Entities.Community.CommunityEvents;
+﻿using Tefa.Domain.Entities.Community.Collections;
+using Tefa.Domain.Entities.Community.CommunityEvents;
 using Tefa.Domain.Entities.Tags;
 using Tefa.Domain.Entities.Users;
 

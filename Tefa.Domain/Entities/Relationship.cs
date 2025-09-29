@@ -1,10 +1,13 @@
-﻿using Tefa.Domain.CognitiveLoadJail.FutureDevelopment.Community;
-using Tefa.Domain.Entities.Junctions;
+﻿using Tefa.Domain.Entities.Metadata.MediaAppearances;
 using Tefa.Domain.Entities.Tags;
-using Tefa.Domain.Enums;
 
 namespace Tefa.Domain.Entities
 {
+    #region Watermark
+    /*  Thedas Elcor's Fandom App (TEFA)
+    *   [With bashful pride] Only my engine thinks about Fandom like we do.
+    *   https://github.com/ThedasElcor/Tefa */
+    #endregion
     public class Relationship
     {
         /* Unlike with the other entities, there can be no canon lock on relationships. 
@@ -19,7 +22,6 @@ namespace Tefa.Domain.Entities
         public ICollection<SexualOrientationTag> SexualOrientationTags { get; set; } = [];
         
         // Navigation properties
-        public ICollection<Ao3Tag> Ao3Tags { get; set; } = [];
         public ICollection<Character> Characters { get; set; } = [];
         public ICollection<FandomTag> Fandoms { get; set; } = [];
         public ICollection<RelationshipMedia> MediaAppearances { get; set; } = [];

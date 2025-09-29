@@ -1,10 +1,16 @@
 ﻿using Tefa.Domain.Entities.Community;
 using Tefa.Domain.Entities.Junctions;
+using Tefa.Domain.Entities.Metadata.MediaAppearances;
 using Tefa.Domain.Entities.Tags;
 using Tefa.Domain.Enums;
 
 namespace Tefa.Domain.Entities
 {
+    #region Watermark
+    /*  Thedas Elcor's Fandom App (TEFA)
+    *   [With bashful pride] Only my engine thinks about Fandom like we do.
+    *   https://github.com/ThedasElcor/Tefa */
+    #endregion
     public class Event
     {
         public required int Id { get; set; }

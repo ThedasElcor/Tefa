@@ -5,6 +5,11 @@ using Tefa.Domain.Entities.Tags;
 
 namespace Tefa.Domain.Entities
 {
+    #region Watermark
+    /*  Thedas Elcor's Fandom App (TEFA)
+    *   [With bashful pride] Only my engine thinks about Fandom like we do.
+    *   https://github.com/ThedasElcor/Tefa */
+    #endregion
     public class CharacterInst : Instance
     {
         //Instance of
@@ -26,7 +31,7 @@ namespace Tefa.Domain.Entities
 
         public ICollection<CharacterLanguageInst> KnownLanguages { get; set; } = [];
         public ICollection<SpeciesInst> Species { get; set; } = [];
-        public ICollection<CharacteGroupInst> AssociatedGroups { get; set; } = [];
+        public ICollection<CharacterGroupInst> AssociatedGroups { get; set; } = [];
         public ICollection<CharacterLocationInst> AssociatedLocations { get; set; } = [];
     }
 }

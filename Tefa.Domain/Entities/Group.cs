@@ -1,5 +1,6 @@
 ﻿using Tefa.Domain.Entities.Community;
 using Tefa.Domain.Entities.Junctions;
+using Tefa.Domain.Entities.Metadata.MediaAppearances;
 using Tefa.Domain.Entities.Tags;
 
 namespace Tefa.Domain.Entities
@@ -26,13 +27,13 @@ namespace Tefa.Domain.Entities
         public ICollection<CharacterGroup> AssociatedCharacters { get; set; } = [];
         public ICollection<GroupLanguage> AssociatedConlangs { get; set; } = [];
         public ICollection<GroupEvent> AssociatedEvents { get; set; } = [];
-        public ICollection<GroupLA> AssociatedLocations { get; set; } = [];
+        public ICollection<GroupLocation> AssociatedLocations { get; set; } = [];
         public ICollection<SpeciesGroup> AssociatedSpecies { get; set; } = [];
 
         public ICollection<GroupMedia> MediaAppearances { get; set; } = [];
 
         //Fandom Appearances
-        public ICollection<Ao3Tag> Ao3Tags { get; set;} = []; //TODO: figure out ifd this nav tag would work as expected as designed
+        
         public ICollection<GroupInst> GroupInstances { get; set; } = [];
         public ICollection<FanWork> FanWork { get; set; } = [];
     }

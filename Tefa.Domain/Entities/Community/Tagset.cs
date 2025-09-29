@@ -2,6 +2,7 @@
 using Tefa.Domain.CognitiveLoadJail.Entities.FandomCore.Locations;
 using Tefa.Domain.Entities;
 using Tefa.Domain.Entities.ChangeRequests;
+using Tefa.Domain.Entities.Community.Collections;
 using Tefa.Domain.Entities.Community.CommunityEvents;
 using Tefa.Domain.Entities.Tags;
 

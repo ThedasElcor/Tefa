@@ -1,5 +1,4 @@
-﻿using Tefa.Domain.Entities.Abstract;
-using Tefa.Domain.Entities.Junctions;
+﻿using Tefa.Domain.Entities.Junctions;
 using Tefa.Domain.Enums;
 
 namespace Tefa.Domain.Entities

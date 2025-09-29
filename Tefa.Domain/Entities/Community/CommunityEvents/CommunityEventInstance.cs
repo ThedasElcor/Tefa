@@ -1,4 +1,4 @@
-﻿using Tefa.Domain.Entities.Community;
+﻿using Tefa.Domain.Entities.Community.Collections;
 
 namespace Tefa.Domain.Entities.Community.CommunityEvents
 {

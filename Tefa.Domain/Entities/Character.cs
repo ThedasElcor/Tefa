@@ -1,6 +1,6 @@
-﻿using Tefa.Domain.CognitiveLoadJail.Ao3;
-using Tefa.Domain.Entities.Community;
+﻿using Tefa.Domain.Entities.Community;
 using Tefa.Domain.Entities.Junctions;
+using Tefa.Domain.Entities.Metadata.MediaAppearances;
 using Tefa.Domain.Entities.Tags;
 using Tefa.Domain.Enums;
 
