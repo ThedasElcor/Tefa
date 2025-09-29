@@ -1,5 +1,5 @@
-﻿using Tefa.Domain.CognitiveLoadJail.Entities;
-using Tefa.Domain.Entities.Junctions;
+﻿using Tefa.Domain.Entities.Junctions;
+using Tefa.Domain.Entities.Tags;
 
 namespace Tefa.Domain.Entities
 {
@@ -16,7 +16,7 @@ namespace Tefa.Domain.Entities
 
         // Navigation properties
         public ICollection<Ao3Tag> Ao3Tags { get; set; } = [];
-         public ICollection<FandomMedia> Fandoms { get; set; } = [];
+         public ICollection<FandomTag> Fandoms { get; set; } = [];
         public ICollection<CharacterMedia> CharacterAppearances { get; set; } = [];
         public ICollection<EventMedia> EventAppearances { get; set; } = [];
         public ICollection<GroupMedia> GroupAppearances { get; set; } = [];

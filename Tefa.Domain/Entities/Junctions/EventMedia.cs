@@ -1,5 +1,4 @@
-﻿using Tefa.Domain.CognitiveLoadJail.Entities;
-using Tefa.Domain.Enums;
+﻿using Tefa.Domain.Enums;
 
 namespace Tefa.Domain.Entities.Junctions
 {

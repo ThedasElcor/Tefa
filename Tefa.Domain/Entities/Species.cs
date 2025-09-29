@@ -1,7 +1,6 @@
-﻿using Tefa.Domain.CognitiveLoadJail.Entities;
-using Tefa.Domain.CognitiveLoadJail.Enums;
-using Tefa.Domain.Entities.Junctions;
+﻿using Tefa.Domain.Entities.Junctions;
 using Tefa.Domain.Entities.Tags;
+using Tefa.Domain.Enums;
 
 namespace Tefa.Domain.Entities
 {
@@ -13,8 +12,8 @@ namespace Tefa.Domain.Entities
         *   https://github.com/ThedasElcor/Tefa */
         #endregion
         public required int Id { get; set; }
-        public FandomId? OriginalFandomId { get; set; } //Use "IRL (1)" for non-specific species like "Human"
-        public Fandom? OriginalFandom { get; set; }
+        public Fandom? OriginalFandomId { get; set; } //Use "IRL (1)" for non-specific species like "Human"
+        public FandomTag? OriginalFandom { get; set; }
         public ICollection<SpeciesName> Names { get; set; } = [];
         public ICollection<SpeciesNote> Notes { get; set; } = [];
 
@@ -29,8 +28,8 @@ namespace Tefa.Domain.Entities
         public ICollection<Character> AssociatedCharacters { get; set; } = [];
         public ICollection<SpeciesLanguage> AssociatedLanguages { get; set; } = [];
         public ICollection<SpeciesGroup> AssociatedGroups { get; set; } = [];
-        public ICollection<SpeciesEP> AssoiciatedEvents { get; set; } = [];
-        public ICollection<Fandom> Fandoms { get; set; } = [];
+        public ICollection<SpeciesEvent> AssoiciatedEvents { get; set; } = [];
+        public ICollection<FandomTag> Fandoms { get; set; } = [];
 
         //For species with multiple variants like elves or dwarves
         public Species? RootVariant { get; set; }

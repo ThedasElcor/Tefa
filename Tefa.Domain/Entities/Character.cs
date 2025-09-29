@@ -1,8 +1,8 @@
-﻿using Tefa.Domain.CognitiveLoadJail.Entities;
-using Tefa.Domain.CognitiveLoadJail.Enums;
-using Tefa.Domain.CognitiveLoadJail.FutureDevelopment.Community;
+﻿using Tefa.Domain.CognitiveLoadJail.Ao3;
+using Tefa.Domain.Entities.Community;
 using Tefa.Domain.Entities.Junctions;
 using Tefa.Domain.Entities.Tags;
+using Tefa.Domain.Enums;
 
 
 namespace Tefa.Domain.Entities
@@ -16,8 +16,8 @@ namespace Tefa.Domain.Entities
     {
         //Metadata
         public required int Id { get; set; }
-        public FandomId? PrimaryFandom { get; set; }
-        public ICollection<Fandom> Fandoms { get; set; } = [];
+        public Fandom? PrimaryFandom { get; set; }
+        public ICollection<FandomTag> Fandoms { get; set; } = [];
         public ICollection<CharacterMedia> CharacterAppearances { get; set; } = [];
         public string? SysName { get; set; } //For administrative convenience, use Names to support localization and variants
 
@@ -30,6 +30,7 @@ namespace Tefa.Domain.Entities
         
         public ICollection<GenderIdentityTag> GenderIdentity { get; set; } = [];
         public ICollection<GenderPresentationTag> GenderPresentation { get; set; } = [];
+        public ICollection<AttractionTag> AttractionOrientation { get; set; } = [];
         public ICollection<RomanticOrientationTag> RomanticOrientation { get; set; } = [];
         public ICollection<SexualOrientationTag> SexualOrientation { get; set; } = [];
         public ICollection<RelationshipStructureTag> RelationshipStructurePreferences {  get; set; } = [];
@@ -50,7 +51,6 @@ namespace Tefa.Domain.Entities
         public ICollection<Character> ConfirmedDistinctFrom { get; set; } = []; //For uniqueness verification utility
 
         // Fandom Appearances
-        public ICollection<Ao3Tag> Ao3Tags { get; set; } = [];
         public ICollection<CharacterInst> CharacterInstances { get; set; } = [];
         public ICollection<FanWork> FanWorks { get; set; } = [];
     }

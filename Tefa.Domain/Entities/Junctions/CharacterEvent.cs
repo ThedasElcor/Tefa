@@ -1,7 +1,4 @@
-﻿using Tefa.Domain.CognitiveLoadJail.Entities;
-using Tefa.Domain.Entities;
-
-namespace Tefa.Domain.Entities.Junctions
+﻿namespace Tefa.Domain.Entities.Junctions
 {
     public class CharacterEvent
     {

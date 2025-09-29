@@ -1,6 +1,6 @@
-﻿using Tefa.Domain.CognitiveLoadJail.Enums;
-using Tefa.Domain.Entities.Abstract;
+﻿using Tefa.Domain.Entities.Abstract;
 using Tefa.Domain.Entities.Junctions;
+using Tefa.Domain.Enums;
 
 namespace Tefa.Domain.Entities
 {
@@ -12,7 +12,7 @@ namespace Tefa.Domain.Entities
     public class Conlang
     {
         public required int Id { get; set; }
-        public FandomId OriginalFandom { get; set; } // Use IRL as needed
+        public Fandom OriginalFandom { get; set; } // Use IRL as needed
         public string? SysName { get; set; } //For administrative convenience, use Names to suppost localization and variants
         public ICollection<ConlangName> Names { get; set; } = [];
         public ICollection<ConlangNote> Notes { get; set; } = [];

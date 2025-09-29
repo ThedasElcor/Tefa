@@ -1,5 +1,4 @@
-﻿using Tefa.Domain.CognitiveLoadJail.Entities;
-using Tefa.Domain.Entities.Abstract;
+﻿using Tefa.Domain.Entities.Abstract;
 using Tefa.Domain.Entities.Junctions;
 using Tefa.Domain.Entities.Tags;
 
@@ -17,6 +16,6 @@ namespace Tefa.Domain.Entities
         // Navigation Properties
         public ICollection<CharacterSpeciesInst> AssociatedCharacters { get; set; } = [];
         public ICollection<SpeciesLanguageInst> AssociatedLanguages { get; set; } = [];
-        public ICollection<SpeciesEPInstance> AssoiciatedEvents { get; set; } = [];
+        public ICollection<SpeciesEventInst> AssoiciatedEvents { get; set; } = [];
     }
 }

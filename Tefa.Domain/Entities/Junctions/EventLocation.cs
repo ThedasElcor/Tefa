@@ -1,5 +1,4 @@
-﻿using Tefa.Domain.CognitiveLoadJail.Entities;
-using Tefa.Domain.CognitiveLoadJail.Entities.FandomCore.Locations;
+﻿using Tefa.Domain.CognitiveLoadJail.Entities.FandomCore.Locations;
 
 namespace Tefa.Domain.Entities.Junctions
 {
